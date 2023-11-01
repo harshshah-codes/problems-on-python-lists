@@ -13,7 +13,7 @@ def createList(n, range_L):
     L = []
 
     for i in range(n):
-        elem = random.random() * range_L
+        elem = int(random.random() * range_L)
         L.append(elem)
 
     return L
